@@ -84,7 +84,7 @@ To install the APK just 'Allow apps from unknown sources' and proceed with the i
 
 ## Built With
 
-* [Apktool](https://ibotpeaches.github.io/Apktool/) - To Reverse Engineer
+* [Apktool](https://ibotpeaches.github.io/Apktool/) - To Reverse Engineer Android Package (APK)
 * [Smali/Baksmali](https://github.com/JesusFreke/smali) - for Dalvik Executable (DEX) Reverse Engineering
 * [JD GUI](http://jd.benow.ca/) - Java Decompiler
 * [JD GUI](https://sourceforge.net/projects/dex2jar/) - Tools to work with android .dex and java .class files
