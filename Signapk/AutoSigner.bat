@@ -1,0 +1,1 @@
+java -jar signapk.jar certificate.pem key.pk8 Mumblr_V2.2.apk Mumblr_V2.2.apksigned.apk
