@@ -45,6 +45,11 @@ this will yield classes-dex2jar.jar.src.zip, to further view it just
 ```
 Extract the .zip file and open .java classes in editor
 ```
+To build the APK use apktool.jar again
+
+```
+java -jar apktool.jar b Mumblr
+```
 
 Sign the apk when everything is done before getting it onto the system
 
