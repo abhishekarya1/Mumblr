@@ -17,24 +17,33 @@ dex2jar-2.0
 jd-gui-windows-1.4.0
 
 * Versions may differ. Choose Carefully!
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+A step by step series of examples that tell you how to get the development environment running
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+First decompile the apk file using apktool
 
 ```
-until finished
+java -jar apktool.jar d -s Mumblr.apk
+```
+
+if you want you can decompile classes.dex using d2j-dex2jar
+
+```
+d2j-dex2jar.bat classes.dex
+```
+
+this will yield classes-dex2jar.jar, to further view it we'll use jd-gui
+
+```
+Drag and Drop classes-dex2jar.jar into jd-gui.exe and File -> Save All Sources (or Press Ctrl+Alt+S)
+```
+
+this will yield classes-dex2jar.jar.src.zip, to further view it just 
+
+```
+Extract the .zip file and open .java classes in editor
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
