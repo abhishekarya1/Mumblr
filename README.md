@@ -9,8 +9,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 apktool v2.2.4
+
 smalibaksmali v2.2.1
+
 dex2jar-2.0
+
 jd-gui-windows-1.4.0
 
 *Versions may differ. Choose Carefully!
