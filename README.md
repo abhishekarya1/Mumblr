@@ -1,5 +1,7 @@
 # Mumblr
 
+![Alt text](/logo.jpg?raw=true "Title")
+
 Mumblr lets you connect with people on the same Wi-Fi and Bluetooth network, for free.
 
 You just need to be on the same Wi-Fi or Bluetooth network.
