@@ -79,9 +79,10 @@ To install the APK just 'Allow apps from unknown sources' and proceed with the i
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Apktool](https://ibotpeaches.github.io/Apktool/) - To Reverse Engineer
+* [Smali](https://github.com/JesusFreke/smali) - for Dalvik Executables (DEX)
+* [JD GUI](http://jd.benow.ca/) - Java Decompiler
+* [JD GUI](https://sourceforge.net/projects/dex2jar/) - Tools to work with android .dex and java .class files
 
 ## Contributing
 
