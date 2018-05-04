@@ -2,6 +2,8 @@
 
 Mumblr lets you connect with people on the same Wi-Fi and Bluetooth network, for free.
 
+You just need to be on the same Wi-Fi or Bluetooth network.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
