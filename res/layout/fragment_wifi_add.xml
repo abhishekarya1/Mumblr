@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="Both phones must be connected to the same WiFi network." />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IP Address" android:hint="@string/manage_contact_mumblr_name" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/fragment_wifi_add_ip_address_0" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="192" android:inputType="number" />
+        <EditText android:id="@id/fragment_wifi_add_ip_address_1" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="168" android:inputType="number" />
+        <EditText android:id="@id/fragment_wifi_add_ip_address_2" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="0" android:inputType="number" />
+        <EditText android:id="@id/fragment_wifi_add_ip_address_3" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="1" android:inputType="number" />
+    </LinearLayout>
+</LinearLayout>

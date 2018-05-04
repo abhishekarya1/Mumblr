@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_bluetooth_black" android:id="@id/nav_menu_bluetooth_devices" android:title="@string/manage_bluetooth_devices" />
+    <item android:icon="@drawable/ic_wifi_black" android:id="@id/nav_menu_wifi_devices" android:title="@string/manage_wifi_devices" />
+    <item android:icon="@drawable/ic_info_black_24dp" android:id="@id/nav_menu_info" android:title="@string/info" />
+    <item android:icon="@drawable/ic_settings_white" android:id="@id/nav_menu_settings" android:title="@string/settings" />
+    <item android:icon="@drawable/ic_attach_money_white_24dp" android:id="@id/nav_menu_disable_advertisements" android:title="@string/nav_menu_purchase" />
+</menu>
