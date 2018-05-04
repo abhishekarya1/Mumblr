@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_attach_money_white_24dp" android:id="@id/menu_disable_advertisements" android:title="@string/nav_menu_purchase" app:showAsAction="ifRoom" />
-</menu>

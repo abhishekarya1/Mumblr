@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/ll_chat_Wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_chat_TextWrap" android:background="@drawable/chat_dialog_round_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:minHeight="@dimen/chatImageSize" android:layout_toLeftOf="@id/iv_chat_avatar">
-        <TextView android:textColor="@color/chatMessageTextColor" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_chat_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" />
-        <TextView android:gravity="left" android:id="@id/tv_chat_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" />
-    </LinearLayout>
-    <ImageView android:id="@id/iv_chat_avatar" android:background="@drawable/circle_primary_light" android:padding="8.0dip" android:layout_width="@dimen/chatImageSize" android:layout_height="@dimen/chatImageSize" android:src="@drawable/mumblr_android_black" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/iv_LeftImageContentType" />
-</RelativeLayout>
