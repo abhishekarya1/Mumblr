@@ -46,26 +46,31 @@ this will yield classes-dex2jar.jar.src.zip, to further view it just
 Extract the .zip file and open .java classes in editor
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Sign the apk when everything is done before getting it onto the system
 
 ```
-Give an example
+java -jar signapk.jar certificate.pem key.pk8 Mumblr.apk Mumblr_apksigned.apk
+```
+## Optional 
+
+You can also use Baksmali to decode .DEX (classes.dex) 
+
+### Using Smali/Baksmali to extract, decode and re-code DEX directly from the APK
+
+using baksmali.jar
+
+```
+java -Xmx512m -jar baksmali.jar -o output Mumblr.apk
 ```
 
-### And coding style tests
+Output will be placed in the folder named "output"
 
-Explain what these tests test and why
+using smali.jar
+
+To re-compile into DEX from folder named "output"
 
 ```
-Give an example
+java -Xmx512m -jar smali.jar output -o classes.dex
 ```
 
 ## Deployment
