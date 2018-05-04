@@ -75,7 +75,7 @@ java -Xmx512m -jar smali.jar output -o classes.dex
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To install the APK just 'Allow apps from unknown sources' and proceed with the installation.
 
 ## Built With
 
