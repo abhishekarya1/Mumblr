@@ -94,7 +94,6 @@ To install the APK just 'Allow apps from unknown sources' and proceed with the i
 * **Abhishek Arya**
 
 
-
 ## Acknowledgments
 
 * iBotPeaches
