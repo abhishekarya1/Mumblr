@@ -1,6 +1,6 @@
 # Mumblr
 
-![Alt text](/logo.jpg?raw=true "Title")
+<img src="logo.jpg" >
 
 Mumblr lets you connect with people on the same Wi-Fi and Bluetooth network, for free.
 
