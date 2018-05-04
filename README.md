@@ -87,21 +87,17 @@ To install the APK just 'Allow apps from unknown sources' and proceed with the i
 * [Apktool](https://ibotpeaches.github.io/Apktool/) - To Reverse Engineer Android Package (APK)
 * [Smali/Baksmali](https://github.com/JesusFreke/smali) - for Dalvik Executable (DEX) Reverse Engineering
 * [JD GUI](http://jd.benow.ca/) - Java Decompiler
-* [JD GUI](https://sourceforge.net/projects/dex2jar/) - Tools to work with android .dex and java .class files
+* [dex2jar](https://sourceforge.net/projects/dex2jar/) - Tools to work with android .dex and java .class files
 
 ## Authors
 
 * **Abhishek Arya**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
+* iBotPeaches
+* Jesus Freke
 * etc
 
